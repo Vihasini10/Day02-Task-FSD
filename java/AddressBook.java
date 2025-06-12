@@ -25,6 +25,10 @@ public class AddressBook {
         System.out.println("\n--- Your Contacts ---");
         for (int i = 0; i < n; i++) {
             System.out.println((i + 1) + ". " + names[i] + " - " + phones[i]);
+            /*System.out.println((i + 1) + ". " + names[i]);
+        	System.out.println("   " + phones[i]);
+        	System.out.println("   " + email[i]);*/
+        	System.out.println((i + 1) + ". " + names[i] + "\n" + phones[i] + "\n" + email[i]);
         }
 
         scanner.close();
